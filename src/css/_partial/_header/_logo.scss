@@ -3,16 +3,17 @@
 // =============================
 
 .logo-wrapper {
-  float: left;
+    float: left;
 
-  .logo {
-    font-size: $logo-font-size;
-    font-family: $logo-font-family;
-  }
+    .logo {
+        font-size: $logo-font-size;
+        font-family: $logo-font-family;
+        color: $logo-font-color;
+    }
 }
 
 @include max-screen() {
-  .logo-wrapper {
-    display: none;
-  }
+    .logo-wrapper {
+        display: none;
+    }
 }

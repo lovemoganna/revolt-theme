@@ -1,0 +1,28 @@
+// ==============================
+// jinkinFont
+// ==============================
+
+// Font family: jinkin
+@font-face {
+    font-family: 'jinkai';
+    src: url('../fonts/chinese/jinkai.ttf') format('truetype');
+}
+
+// Font family: jinkin
+@font-face {
+    font-family: 'angelina';
+    src: url('../fonts/english/angelina.ttf') format('truetype');
+}
+
+// Font family: Chancery
+@font-face {
+    font-family: 'Chancery';
+    src: url('../fonts/chancery/apple-chancery-webfont.eot');
+    src: local('Apple Chancery'), url('../fonts/chancery/apple-chancery-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/chancery/apple-chancery-webfont.woff2') format('woff2'),
+        url('../fonts/chancery/apple-chancery-webfont.woff') format('woff'),
+        url('../fonts/chancery/apple-chancery-webfont.ttf') format('truetype'),
+        url('../fonts/chancery/apple-chancery-webfont.svg#apple-chancery') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
