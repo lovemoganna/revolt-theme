@@ -19,3 +19,12 @@ min_version = "0.50"
   name = "hexo-theme-even"
   homepage = "http://www.ahonn.me/"
   repo = "https://github.com/ahonn/hexo-theme-even"
+
+[module]
+  [[module.mounts]]
+   source="./node_modules/papercss"
+   target="assets/css/papercss"
+  [[module.mounts]]
+   source="./node_modules/highcharts"
+   target="assets/js/highcharts"
+

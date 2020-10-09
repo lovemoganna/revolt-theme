@@ -55,22 +55,27 @@ $global-container-padding: 0 20px !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: 'jinkai', 'Helvetica Neue', Arial, sans-serif !default;
+$global-font-family: 'Helvetica Neue','jinkai', Arial, sans-serif !default;
+
+$global-common-font-family: 'Fira Code','Helvetica Neue','jinkai', Arial, sans-serif !default;
 
 // Serif font family of the site.
-$global-serif-font-family: Hack, WenQuanYi Zen Hei Mono, STHeiti, Microsoft Yahei, serif !default;
+$global-serif-font-family: STHeiti, Microsoft Yahei, serif !default;
+
+$global-personal-like-font-family: Hack, WenQuanYi Zen Hei Mono,sefif;
 
 // Background color of the site.
-$global-background: $white !default;
+$global-background: $light-gray !default;
 
-// Headings font size of the site.
+// Headings font size of the site
 $global-headings: (
-  h1: 26px,
-  h2: 24px,
+  h1: 24px,
+  h2: 22px,
   h3: 20px,
-  h4: 16px,
-  h5: 14px,
-  h6: 14px
+  h4: 18px,
+  h5: 16px,
+  h6: 14px,
+  h7: 13px
 ) !default;
 
 
@@ -180,11 +185,10 @@ $content-table-border-color: darken($deputy-color, 3%) !default;
 $code-color: #2e0baa!default;
 
 // Font size of code.
-$code-font-size: .9em !default;
+$code-font-size: 0.9em !default;
 
 // Font family of the code.
-$code-font-family: "DejaVu Sans Mono",
- "Bitstream Vera Sans Mono", "Courier New", monospace !default;
+$code-font-family: "Fira Code" , "Sans Mono","Bitstream Vera Sans Mono", "Courier New", monospace !default;
 
 // Color of code highlight, solarized.
 $code-highlight-color: (
@@ -223,7 +227,6 @@ $code-type-list: (
   language-ruby: "Ruby",
   language-sql: "SQL",
   language-shell: "Shell",
-
   language-erlang: "Erlang",
   language-go: "Go",
   language-go-html-template: "Go HTML Template",
@@ -233,7 +236,12 @@ $code-type-list: (
   language-clojure: "Clojure",
   language-less: "Less",
   language-lisp: "Lisp",
+  language-results: "results",
+  language-text: "Plain Text",
+  language-common-lisp: "Common-Lisp",
   language-emacs-lisp: "Elisp",
+  language-elisp: "Elisp",
+  language-org: "Org",
   language-lua: "Lua",
   language-matlab: "Matlab",
   language-rust: "Rust",
