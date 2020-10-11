@@ -9,6 +9,8 @@
 
 .post {
   padding: $post-padding;
+	box-shadow: $post-box-shadow;
+  margin: $post-margin;
 
   & + .post {
     border-top: $post-border;

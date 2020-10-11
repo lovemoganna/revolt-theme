@@ -65,7 +65,7 @@ $global-serif-font-family: STHeiti, Microsoft Yahei, serif !default;
 $global-personal-like-font-family: Hack, WenQuanYi Zen Hei Mono,sefif;
 
 // Background color of the site.
-$global-background: $light-gray !default;
+$global-background: $white !default;
 
 // Headings font size of the site
 $global-headings: (
@@ -109,7 +109,11 @@ $mobile-navbar-height: 50px !default;
 $post-list-margin-bottom: 20px !default;
 
 // Padding of the post.
-$post-padding: 1.5em 0 !default;
+$post-padding: 1.5em 2.5em !default;
+
+$post-box-shadow: 5px 5px 20px -5px #915a5ab8;
+
+$post-margin: 20px 0;
 
 // Border top of the post + post.
 $post-border: 1px solid $light-gray !default;
@@ -229,6 +233,7 @@ $code-type-list: (
   language-shell: "Shell",
   language-erlang: "Erlang",
   language-go: "Go",
+  language-R: "R",
   language-go-html-template: "Go HTML Template",
   language-groovy: "Groovy",
   language-haskell: "Haskell",
