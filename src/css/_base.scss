@@ -15,9 +15,16 @@ body {
     /* line-height: $global-lineheight;*/
     line-height: 2;
     color: $global-font-color;
-    background: $global-background;
+    // background: $global-background;
     scroll-behavior: smooth;
     border-top: 3px solid $theme-color;
+    // backgroud-color: #f0e7e7de;
+    background: url("/img/wallhaven-girlss.png") repeat center center fixed;
+    background-repeat: space;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 
 @include max-screen() {
