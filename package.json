@@ -31,7 +31,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "highcharts": "^8.2.0",
+    "highcharts": "^9.0.0",
     "papercss": "^1.8.0"
   }
 }
